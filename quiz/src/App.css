@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #40407a;
+  color: aliceblue;
+}
+
+h1 {
+  font-family: 'Architects Daughter';
+}
+
+button {
+  height: 7vh;
+  width: 19vw;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin-top: 3vh;
+  background: #57b846;
+  color: aliceblue;
+  font-size: large;
+}
+
+.box {
+  border: solid blue;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #f8f8f8;
+  color: black;
+  width: 80vw;
+  position: relative;
+  border: 5px solid #1da1f2;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.box h1 {
+  font-size: 4em;
+  font-family: 'montserrat';
+  font-weight: 100;
+}
+
+.quesNo {
+  position: absolute;
+  top: 21vh;
+  left: 5vh;
+}
+
+.QueData {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 0 24px;
+}
+
+.options button {
+  width: 34vw;
+  background: #1da1f2;
+}
+
+.bottom {
+  display: flex;
+  width: 47vw;
+  justify-content: space-evenly;
+}
+
+.bottom button {
+  border-radius: 0;
+  height: 6vh;
+  width: 10vw;
+  box-shadow: 2px 4px 13px 0px #00000059;
+}
+
+.bottom button:nth-child(1) {
+  background: #0c85d0;
+
+}
+
+.bottom button:nth-child(3) {
+  background: #ea4355;
+}
+
+.resCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+
+.logo {
+  height: 100px;
+  border: 10px solid #57b846;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 25px;
+  border: 12px solid #57b846;
+  transform: rotate(45deg) translate(89%, -22%);
+  border-left: none;
+  border-top: none;
+}
+
+.resCont h2 {
+  color: #57b846;
+  font-weight: 100;
+  font-size: xxx-large;
+}
+
+.resC {
+  height: 40vh;
+  width: 53vw;
+  border: none
+}
+
+.resC h2 {
+  color: black;
+}
+
+.resC h1 {
+  color: #2ca6f2;
+}
+
+.li {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+}
+
+.btns {
+  width: 53vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns button {
+  border-radius: 0;
+  background: transparent;
+}
+
+.btns button:nth-child(1) {
+  border: 3px solid #2ca6f2;
+}
+
+.btns button:nth-child(2) {
+  border: 3px solid #57b846;
+}
